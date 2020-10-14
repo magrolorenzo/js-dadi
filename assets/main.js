@@ -12,11 +12,13 @@ if ( dado1 > dado2 ){
     document.getElementById('dado-1').style.color = "green";
     document.getElementById('dado-2').style.color = "red";
     document.getElementById('dado-1-title').innerHTML += ' vince!'
+    document.getElementById('dado-2-title').innerHTML += ' perde!'
 
 } else if ( dado1 < dado2 ) {
     document.getElementById('dado-2').style.color = "green";
     document.getElementById('dado-1').style.color = "red";
     document.getElementById('dado-2-title').innerHTML += ' vince!'
+    document.getElementById('dado-1-title').innerHTML += ' perde!'
 
 } else {
     document.getElementById('dado-2').style.color = "yellow";
