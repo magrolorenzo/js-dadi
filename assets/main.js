@@ -1,3 +1,5 @@
+
+
 // Valore primo dado
 var dado1 = Math.floor( (Math.random() * 6) + 1 );
 document.getElementById('dado-1').innerHTML = dado1 ;
